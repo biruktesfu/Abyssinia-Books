@@ -1,12 +1,25 @@
-import { Text, View } from "react-native";
+import React, { useState } from "react";
+import { SearchBar } from "@rneui/themed";
+import { Text, View, StyleSheet } from "react-native";
 
 function LibraryScreen() {
-    return (
-      <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
-        <Text>Library</Text>
-        
-      </View>
-    );
-  }
+  const [search, setSearch] = useState("");
+
+  const updateSearch = (search) => {
+    setSearch(search);
+  };
+
+  return (
+    <View
+      style={{flex: 1,justifyContent: "flex-start", alignItems: "stretch",}}>
+      <SearchBar
+        placeholder="Type Here..."
+        onChangeText={updateSearch}
+        value={search}
+      />
+      <Text>Library</Text>
+    </View>
+  );
+}
 
 export default LibraryScreen;
