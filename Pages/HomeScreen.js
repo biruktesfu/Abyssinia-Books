@@ -52,6 +52,7 @@ function HomeScreen() {
         </Card>
         </TouchableOpacity>
 
+
         <TouchableOpacity onPress={() => Alert.alert("clicked")}>
         <Card height={200} containerStyle={{backgroundColor:"#d1d1d1", borderColor:"#d1d1d1"}}>
           
