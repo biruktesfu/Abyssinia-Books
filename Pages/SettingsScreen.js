@@ -11,12 +11,6 @@ function SettingsScreen() {
 
   return (
     <View  style={{flex: 1,justifyContent: "flex-start", alignItems: "stretch",}}>
-      <SearchBar
-        placeholder="Type Here..."
-        onChangeText={updateSearch}
-        value={search}
-      />
-      <Text>Settings!</Text>
     </View>
   );
 }
