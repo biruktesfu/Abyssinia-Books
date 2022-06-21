@@ -1,6 +1,4 @@
 # Abyssinia Books 
-___
-
 
 #### Group Members
 
@@ -9,8 +7,7 @@ ___
 ##### Dagim Tesfaye             ATR/3361/08
 
 
-#### Advisor 
-##### Dr. Sunkari 
+#### Advisor: Dr. Sunkari 
 
 
 **Abyssinia Books** is an online publishing, selling and reading 
